@@ -1,0 +1,10 @@
+1) Qual a faixa etária dos clientes?
+2) Qual o sexo predominante entre os clientes?
+3) Qual o gênero do jogo mais cobiçado? 
+4) Qual é o top 10 jogos mais vendidos e quais são seus gêneros? 
+5) Qual é o top 10 jogos mais vendidos desenvolvidos por mulheres e quais são seus gêneros? 
+6) Qual é o preço dos 3 jogos mais caros da loja?
+7) Quantos jogos desenvolvidos por mulheres estão no Top 10 dos mais bem avaliados?
+8) Dos jogos mais bem-avaliados, quantos são multi-players e quais são os gêneros predominantes?
+9)Qual o percentual de mulheres que baixou o jogo mais vendido ultimamente?
+10)Breve descrição dos 2 primeiros jogos;
