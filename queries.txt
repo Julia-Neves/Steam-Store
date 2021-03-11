@@ -1,10 +1,32 @@
-1) Qual a faixa etária dos clientes?
-2) Qual o sexo predominante entre os clientes?
-3) Qual o gênero do jogo mais cobiçado? 
-4) Qual é o top 10 jogos mais vendidos e quais são seus gêneros? 
-5) Qual é o top 10 jogos mais vendidos desenvolvidos por mulheres e quais são seus gêneros? 
-6) Qual é o preço dos 3 jogos mais caros da loja?
-7) Quantos jogos desenvolvidos por mulheres estão no Top 10 dos mais bem avaliados?
-8) Dos jogos mais bem-avaliados, quantos são multi-players e quais são os gêneros predominantes?
-9)Qual o percentual de mulheres que baixou o jogo mais vendido ultimamente?
-10)Breve descrição dos 2 primeiros jogos;
+1) Qual a faixa etária dos clientes? (JU)
+2) Qual o sexo predominante entre os clientes? (JU)
+3) Qual o gênero do jogo mais cobiçado? (WESLEY)
+4) Qual é o top 10 jogos mais vendidos e quais são seus gêneros? (WESLEY)
+5) Qual é o top 10 jogos mais vendidos desenvolvidos por mulheres e quais são seus gêneros? (LEO)
+6) Qual é o preço dos 3 jogos mais caros da loja?  (LEO)
+7) Quantos jogos desenvolvidos por mulheres estão no Top 10 dos mais bem avaliados? (ANA)
+8) Dos jogos mais bem-avaliados, quantos são multi-players e quais são os gêneros predominantes? (ANA)
+9)Qual o percentual de mulheres que baixou o jogo mais vendido ultimamente? (ANA)
+10)Breve descrição dos 2 primeiros jogos; (JU E LEO)
+
+
+PASSO-A-PASSO PARA ACESSAR O BANCO NO WORKBENCH:
+1) Abrir o terminal;
+2) Colocar 'Docker build -t steam .';
+3) Colocar 'Docker run -d -p 3306:3306 steam'
+4) Colocar 'Docker ps' (para ver se o contâiner está rodando);
+
+DEPOIS, NO WORKBENCH, PARA FAZER A CONEXÃO:
+1) Colocar o usuário 'developer';
+2) Colocar a senha 'theItPerson';
+
+PARA POPULAR O BANCO DE DADOS DEPOIS DE ACESSAR O WORKBENCH E FAZER A CONEXÃO:
+1) Clicar 2x no nome do banco;
+2) Clicar com o botão direito em 'tables';
+3) Selecionar 'Table Data Import Wizard';
+4) Aparecerá uma nova janela com um campo de input. Clique em 'browse';
+5) Navegue até a pasta do nosso projeto e clique na pasta Steam Store Games, pasta em que se encontram os dados em váris arquivos em formato excel;
+6) Selecione um arquivo e vá clicando em continuar até que o Workbench diga que a tabela já foi importada;
+OBS.: O passo 6 deve ser repetido até que você tenha importado todas as tabelas!
+
+
