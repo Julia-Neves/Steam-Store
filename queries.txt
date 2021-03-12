@@ -1,13 +1,13 @@
-1) Qual a faixa etária dos clientes? (JU)
-2) Qual o sexo predominante entre os clientes? (JU)
+1) Qual a idade mínima para baixar os 5 primeiros jogos? (JU)
+2) 2) Quantos dos 10 primeiros jogos possuem a palavra “kill”, “war” e “anger” em suas descrições? (JU)
 3) Qual o gênero do jogo mais cobiçado? (WESLEY)
 4) Qual é o top 10 jogos mais vendidos e quais são seus gêneros? (WESLEY)
 5) Qual é o top 10 jogos mais vendidos desenvolvidos por mulheres e quais são seus gêneros? (LEO)
 6) Qual é o preço dos 3 jogos mais caros da loja?  (LEO)
 7) Quantos jogos desenvolvidos por mulheres estão no Top 10 dos mais bem avaliados? (ANA)
-8) Dos jogos mais bem-avaliados, quantos são multi-players e quais são os gêneros predominantes? (ANA)
-9)Qual o percentual de mulheres que baixou o jogo mais vendido ultimamente? (ANA)
-10)Breve descrição dos 2 primeiros jogos; (JU E LEO)
+8) Dos jogos mais bem-avaliados, quantos são multi-players e quais são os gêneros predominantes? (BRUNO)
+9)Qual o percentual de mulheres envolvidas nas equipes que desenvolveram os 2 últimos lançamentos? (ANA)
+10)Qual o tempo médio de jogo dos 10 primeiros jogos? (BRUNO)
 
 
 PASSO-A-PASSO PARA ACESSAR O BANCO NO WORKBENCH:
@@ -28,5 +28,3 @@ PARA POPULAR O BANCO DE DADOS DEPOIS DE ACESSAR O WORKBENCH E FAZER A CONEXÃO:
 5) Navegue até a pasta do nosso projeto e clique na pasta Steam Store Games, pasta em que se encontram os dados em váris arquivos em formato excel;
 6) Selecione um arquivo e vá clicando em continuar até que o Workbench diga que a tabela já foi importada;
 OBS.: O passo 6 deve ser repetido até que você tenha importado todas as tabelas!
-
-
